@@ -1,5 +1,6 @@
 :root {
-  --primary-color: blue;
+  --primary-color: PowderBlue;
+  --secondary-color: #434c56;
 }
 
 * {
@@ -15,60 +16,143 @@ body {
 }
 
 header {
-  background-color: gray;
+  background-color: var(--secondary-color);
   height: 5rem;
 }
 
-header h1 {
+header > h1 {
   display: inline-block;
   font-size: 3rem;
   background-color: var(--primary-color);
+  padding-left: 3rem;
+  padding-right: 1rem;
+  color: var(--secondary-color);
 }
 
-header nav {
+header > nav {
   float: right;
-  margin-top: 1rem;
-  margin-right: 2rem;
+  margin-top: 1.5rem;
+  margin-right: 3rem;
 }
 
-header nav ul li {
+header > nav > ul > li {
   display: inline-block;
   margin-left: 2rem;
-  text-decoration: underline;
 }
 
-header nav ul li a {
-  text-decoration: none;
+header > nav > ul > li > a {
+  border-bottom: 0.2rem solid var(--primary-color);
+  padding: 0.3rem;
+  color: var(--primary-color);
 }
 
-.hero-banner h2 {
+.hero-banner {
+  position: relative;
+}
+
+.hero-banner > h2 {
   font-size: 2rem;
+  color: var(--secondary-color);
   background-color: var(--primary-color);
   float: right;
   position: absolute;
   top: 80%;
-  left: 40%;
+  left: 59%;
+  padding: 1rem;
 }
 
-.hero-banner img {
+.hero-banner > img {
   width: 100%;
 }
 
 .page-section {
   display: flex;
-  margin: 1rem;
+  margin: 1.5rem;
+  padding-bottom: 1rem;
 }
 
-.page-section h2 {
+.page-section > h2 {
   font-size: 4rem;
+  color: var(--secondary-color);
   width: 35%;
-  border-right: 0.3rem solid darkblue;
+  border-right: 0.3rem solid var(--secondary-color);
   text-align: right;
   line-height: 4rem;
   padding-right: 1rem;
 }
 
-.page-section div {
+.page-section > div {
   width: 65%;
   margin: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.page-section p {
+  padding-bottom: 1rem;
+}
+
+.page-section img {
+  width: 100%;
+}
+
+.page-section .abc {
+  font-size: 0.7rem;
+}
+
+.work-img {
+  position: relative;
+  padding: 0.5rem;
+}
+
+.work-img > img {
+  object-fit: cover;
+  border: 0.5rem solid var(--primary-color);
+}
+
+.main-img {
+  width: 100%;
+}
+
+.main-img > img {
+  max-height: 20rem;
+}
+
+.main-img > .work-header {
+  top: 70%;
+}
+
+.minor-img {
+  width: 50%;
+}
+
+.minor-img > img {
+  max-height: 10rem;
+}
+
+.minor-img > .work-header {
+  top: 50%;
+}
+
+.work-header {
+  background-color: var(--primary-color);
+  position: absolute;
+  padding: 0.5rem 1rem;
+}
+
+.contact > div {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.contact > div > a {
+  border-bottom: 0.2rem solid var(--secondary-color);
+  padding: 0.3rem;
+}
+
+.colored-text {
+  color: var(--primary-color);
+  font-weight: bold;
 }

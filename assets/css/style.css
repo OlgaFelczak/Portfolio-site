@@ -74,7 +74,7 @@ header > nav > ul > li > a {
 .page-section > h2 {
   font-size: 4rem;
   color: var(--secondary-color);
-  width: 35%;
+  width: 30%;
   border-right: 0.3rem solid var(--secondary-color);
   text-align: right;
   line-height: 4rem;
@@ -82,7 +82,7 @@ header > nav > ul > li > a {
 }
 
 .page-section > div {
-  width: 65%;
+  width: 70%;
   margin: 0 1rem;
   display: flex;
   flex-wrap: wrap;
@@ -97,7 +97,7 @@ header > nav > ul > li > a {
   width: 100%;
 }
 
-.page-section .abc {
+.page-section .link-project {
   font-size: 0.7rem;
 }
 

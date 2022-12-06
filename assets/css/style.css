@@ -51,7 +51,7 @@ header > nav > ul > li > a {
 }
 
 .hero-banner > h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--secondary-color);
   background-color: var(--primary-color);
   float: right;
@@ -155,4 +155,70 @@ header > nav > ul > li > a {
 .colored-text {
   color: var(--primary-color);
   font-weight: bold;
+}
+
+/* scrren size for tablets */
+@media screen and (max-width: 768px) {
+  .work-header {
+    padding: 0.2rem 0.4rem;
+  }
+
+  .main-img > .work-header {
+    top: 50%;
+  }
+
+  .minor-img {
+    width: 100%;
+  }
+
+  .minor-img > .work-header {
+    top: 50%;
+  }
+
+  .minor-img img {
+    max-height: 15rem;
+  }
+
+  .page-section {
+    display: flex;
+    margin: 0.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .page-section > h2 {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    width: 20%;
+    border-right: 0.3rem solid var(--secondary-color);
+    text-align: right;
+    line-height: 4rem;
+    padding-right: 1rem;
+  }
+
+  .page-section > div {
+    width: 80%;
+    margin: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+
+  .page-section p {
+    padding-bottom: 1rem;
+  }
+
+  .page-section img {
+    width: 100%;
+  }
+
+  .hero-banner > h2 {
+    font-size: 1rem;
+    top: 70%;
+    left: 50%;
+  }
+
+  header > nav {
+    float: right;
+    margin: 0.5rem;
+  }
 }

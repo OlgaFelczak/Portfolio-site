@@ -32,4 +32,5 @@ When the page is resized or viewed on various screens and devices then the layou
 ## Links
 
 Github URL: https://github.com/OlgaFelczak/Portfolio-site
+
 Live Site URL: https://olgafelczak.github.io/Portfolio-site/

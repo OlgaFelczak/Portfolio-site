@@ -106,7 +106,7 @@ header > nav > ul > li > a {
   padding: 0.5rem;
 }
 
-.work-img > img {
+.work-img img {
   object-fit: cover;
   border: 0.5rem solid var(--primary-color);
 }
@@ -115,7 +115,7 @@ header > nav > ul > li > a {
   width: 100%;
 }
 
-.main-img > img {
+.main-img img {
   max-height: 20rem;
 }
 
@@ -127,7 +127,7 @@ header > nav > ul > li > a {
   width: 50%;
 }
 
-.minor-img > img {
+.minor-img img {
   max-height: 10rem;
 }
 
